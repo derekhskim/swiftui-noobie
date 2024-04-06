@@ -14,6 +14,7 @@ enum Theme: String, CaseIterable {
     case dark = "Dark"
 
     // MARK: - Properties
+
     var colorScheme: ColorScheme? {
         switch self {
         case .systemDefault:
@@ -26,6 +27,7 @@ enum Theme: String, CaseIterable {
     }
 
     // MARK: - Methods
+
     func color(_ scheme: ColorScheme) -> Color {
         switch self {
         case .systemDefault:

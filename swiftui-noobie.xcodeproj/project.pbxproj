@@ -44,6 +44,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65569E6A2BC2020700DE6FEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6594B9A42BC1EE1700F17EF9 /* Topics.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65569E6C2BC2021300DE6FEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6594B9A02BC1ED7F00F17EF9 /* TopicListView.swift */,
+				6594B9A62BC1EF9500F17EF9 /* GuideView.swift */,
+				6594B9A82BC1F66000F17EF9 /* SettingsView.swift */,
+				6594B9942BC1E6F100F17EF9 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6594B9862BC1E6F000F17EF9 = {
 			isa = PBXGroup;
 			children = (
@@ -63,16 +82,12 @@
 		6594B9912BC1E6F100F17EF9 /* swiftui-noobie */ = {
 			isa = PBXGroup;
 			children = (
+				65569E6C2BC2021300DE6FEF /* View */,
+				65569E6A2BC2020700DE6FEF /* Model */,
 				6594B9AA2BC1F87B00F17EF9 /* Helpers */,
 				6594B9922BC1E6F100F17EF9 /* swiftui_noobieApp.swift */,
-				6594B9A02BC1ED7F00F17EF9 /* TopicListView.swift */,
-				6594B9A62BC1EF9500F17EF9 /* GuideView.swift */,
-				6594B9A82BC1F66000F17EF9 /* SettingsView.swift */,
-				6594B9A42BC1EE1700F17EF9 /* Topics.swift */,
-				6594B9942BC1E6F100F17EF9 /* ContentView.swift */,
 				6594B9962BC1E6F300F17EF9 /* Assets.xcassets */,
 				6594B9982BC1E6F300F17EF9 /* Preview Content */,
-				65569E682BC2011D00DE6FEF /* Theme.swift */,
 			);
 			path = "swiftui-noobie";
 			sourceTree = "<group>";
@@ -88,6 +103,7 @@
 		6594B9AA2BC1F87B00F17EF9 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				65569E682BC2011D00DE6FEF /* Theme.swift */,
 				6594B9AB2BC1F89000F17EF9 /* ThemeChangeView.swift */,
 			);
 			path = Helpers;

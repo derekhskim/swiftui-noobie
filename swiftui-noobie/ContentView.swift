@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    // MARK: - View Conformance
+
     var body: some View {
         TabView {
             Group {
@@ -16,7 +19,7 @@ struct ContentView: View {
                         Label("Topics", systemImage: "book.closed")
                     }
 
-                Text("This is setting page :)")
+                SettingsView()
                     .tabItem {
                         Label("Settings", systemImage: "gear")
                     }

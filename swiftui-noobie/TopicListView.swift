@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct TopicListView: View {
+
+    // MARK: - View Conformance
+
     var body: some View {
         NavigationView {
             List {

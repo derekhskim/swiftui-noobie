@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct swiftui_noobieApp: App {
+
+    // MARK: - Properties
+
+    @AppStorage("userTheme") private var userTheme: Theme = .systemDefault
+
+    // MARK: - App Conformance
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(userTheme.colorScheme)
         }
     }
 }

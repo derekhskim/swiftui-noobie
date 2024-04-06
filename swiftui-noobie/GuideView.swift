@@ -8,7 +8,13 @@
 import SwiftUI
 
 struct GuideView: View {
+
+    // MARK: - Properties
+
     let topic: Topics
+
+    // MARK: - View Conformance
+
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {

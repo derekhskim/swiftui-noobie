@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65569E692BC2011D00DE6FEF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65569E682BC2011D00DE6FEF /* Theme.swift */; };
 		6594B9932BC1E6F100F17EF9 /* swiftui_noobieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594B9922BC1E6F100F17EF9 /* swiftui_noobieApp.swift */; };
 		6594B9952BC1E6F100F17EF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594B9942BC1E6F100F17EF9 /* ContentView.swift */; };
 		6594B9972BC1E6F300F17EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6594B9962BC1E6F300F17EF9 /* Assets.xcassets */; };
@@ -14,9 +15,12 @@
 		6594B9A12BC1ED7F00F17EF9 /* TopicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594B9A02BC1ED7F00F17EF9 /* TopicListView.swift */; };
 		6594B9A52BC1EE1700F17EF9 /* Topics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594B9A42BC1EE1700F17EF9 /* Topics.swift */; };
 		6594B9A72BC1EF9500F17EF9 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594B9A62BC1EF9500F17EF9 /* GuideView.swift */; };
+		6594B9A92BC1F66000F17EF9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594B9A82BC1F66000F17EF9 /* SettingsView.swift */; };
+		6594B9AC2BC1F89000F17EF9 /* ThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594B9AB2BC1F89000F17EF9 /* ThemeChangeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65569E682BC2011D00DE6FEF /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		6594B98F2BC1E6F100F17EF9 /* swiftui-noobie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-noobie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6594B9922BC1E6F100F17EF9 /* swiftui_noobieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_noobieApp.swift; sourceTree = "<group>"; };
 		6594B9942BC1E6F100F17EF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +29,8 @@
 		6594B9A02BC1ED7F00F17EF9 /* TopicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicListView.swift; sourceTree = "<group>"; };
 		6594B9A42BC1EE1700F17EF9 /* Topics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topics.swift; sourceTree = "<group>"; };
 		6594B9A62BC1EF9500F17EF9 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		6594B9A82BC1F66000F17EF9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6594B9AB2BC1F89000F17EF9 /* ThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,13 +63,16 @@
 		6594B9912BC1E6F100F17EF9 /* swiftui-noobie */ = {
 			isa = PBXGroup;
 			children = (
+				6594B9AA2BC1F87B00F17EF9 /* Helpers */,
 				6594B9922BC1E6F100F17EF9 /* swiftui_noobieApp.swift */,
 				6594B9A02BC1ED7F00F17EF9 /* TopicListView.swift */,
+				6594B9A62BC1EF9500F17EF9 /* GuideView.swift */,
+				6594B9A82BC1F66000F17EF9 /* SettingsView.swift */,
 				6594B9A42BC1EE1700F17EF9 /* Topics.swift */,
 				6594B9942BC1E6F100F17EF9 /* ContentView.swift */,
 				6594B9962BC1E6F300F17EF9 /* Assets.xcassets */,
 				6594B9982BC1E6F300F17EF9 /* Preview Content */,
-				6594B9A62BC1EF9500F17EF9 /* GuideView.swift */,
+				65569E682BC2011D00DE6FEF /* Theme.swift */,
 			);
 			path = "swiftui-noobie";
 			sourceTree = "<group>";
@@ -74,6 +83,14 @@
 				6594B9992BC1E6F300F17EF9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6594B9AA2BC1F87B00F17EF9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6594B9AB2BC1F89000F17EF9 /* ThemeChangeView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +164,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6594B9952BC1E6F100F17EF9 /* ContentView.swift in Sources */,
+				65569E692BC2011D00DE6FEF /* Theme.swift in Sources */,
 				6594B9A52BC1EE1700F17EF9 /* Topics.swift in Sources */,
 				6594B9932BC1E6F100F17EF9 /* swiftui_noobieApp.swift in Sources */,
+				6594B9A92BC1F66000F17EF9 /* SettingsView.swift in Sources */,
 				6594B9A12BC1ED7F00F17EF9 /* TopicListView.swift in Sources */,
+				6594B9AC2BC1F89000F17EF9 /* ThemeChangeView.swift in Sources */,
 				6594B9A72BC1EF9500F17EF9 /* GuideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

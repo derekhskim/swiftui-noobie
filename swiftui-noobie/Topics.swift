@@ -18,6 +18,8 @@ enum Topics: String, CaseIterable, Identifiable {
     case fonts = "Fonts"
     case padding = "Padding"
 
+    // MARK: - Properties
+
     var id: String { self.rawValue }
 
     var description: String {
